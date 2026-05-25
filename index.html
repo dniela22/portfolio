@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Cybersecurity Portfolio</title>
+  <meta name="description" content="Cybersecurity professional with experience in security research and threat analysis." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ── NAVIGATION ─────────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="nav-logo"><span>//</span> YourName<span class="accent">.sec</span></div>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ───────────────────────────────────────────────── -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-tag">Cybersecurity Professional</div>
+      <h1 class="hero-name">Your<br>Full Name</h1>
+      <p class="hero-title">Security Analyst &amp; Researcher</p>
+      <p class="hero-bio">
+        Cybersecurity professional with hands-on experience in security research at Microsoft
+        and threat analysis at Leidos. Passionate about building secure systems and
+        understanding how adversaries think.
+      </p>
+      <div class="hero-cta">
+        <a href="assets/resume.pdf" class="btn-primary" download>Download Resume</a>
+        <a href="#projects" class="btn-outline">View Projects</a>
+      </div>
+    </div>
+
+    <div class="hero-avatar-wrap">
+      <div class="avatar-ring">
+        <!-- Replace the initials below with an <img> tag once you have a headshot:
+             <img src="assets/headshot.jpg" alt="Your Name" class="headshot-img" />  -->
+        <div class="avatar-initials">YN</div>
+      </div>
+      <div class="badge-group">
+        <span class="badge badge-ms">Microsoft — Security Research</span>
+        <span class="badge badge-ld">Leidos — Cyber Analyst</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ──────────────────────────────────────────────── -->
+  <section class="section" id="about">
+    <div class="section-header">
+      <span class="section-num">01 /</span>
+      <h2 class="section-title">About Me</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm a cybersecurity professional driven by curiosity and a commitment to building
+          safer digital systems. My background spans security research and live analyst work,
+          giving me both offensive and defensive perspectives on the threat landscape.
+        </p>
+        <p>
+          During my internship at <strong>Microsoft</strong>, I contributed to security research
+          challenges at scale — analyzing vulnerability patterns and working closely with senior
+          researchers on active security problems. At <strong>Leidos</strong>, I transitioned into
+          real-time threat monitoring and incident response as a Cybersecurity Analyst Intern.
+        </p>
+        <p>
+          I'm currently developing my specialization and exploring areas including network
+          security, vulnerability research, and cloud security posture. I'm a firm believer
+          that the best defenders think like attackers.
+        </p>
+      </div>
+
+      <div class="stat-block">
+        <div class="stat">
+          <div class="stat-val">2</div>
+          <div class="stat-label">Industry Internships</div>
+        </div>
+        <div class="stat">
+          <div class="stat-val">∞</div>
+          <div class="stat-label">Curiosity for Security</div>
+        </div>
+        <div class="stat">
+          <div class="stat-val">1</div>
+          <div class="stat-label">Mission: Secure Systems</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ─────────────────────────────────────────── -->
+  <section class="section" id="experience">
+    <div class="section-header">
+      <span class="section-num">02 /</span>
+      <h2 class="section-title">Experience</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="exp-list">
+      <!-- Add or remove .exp-item blocks as needed -->
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-date">2024 — Present</div>
+          <div class="exp-location">Remote / On-site</div>
+        </div>
+        <div class="exp-body">
+          <div class="exp-company">Leidos</div>
+          <div class="exp-role">Cybersecurity Analyst Intern</div>
+          <p class="exp-desc">
+            Supporting security operations through threat monitoring, log analysis, and
+            incident response. Working alongside analysts to identify and triage potential
+            threats in client environments using SIEM platforms and threat intelligence feeds.
+          </p>
+          <div class="exp-tags">
+            <span class="tag">SIEM</span>
+            <span class="tag">Threat Monitoring</span>
+            <span class="tag">Incident Response</span>
+            <span class="tag">Log Analysis</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-date">2023 — 2024</div>
+          <div class="exp-location">Remote / Redmond, WA</div>
+        </div>
+        <div class="exp-body">
+          <div class="exp-company">Microsoft</div>
+          <div class="exp-role">Security Research Intern</div>
+          <p class="exp-desc">
+            Contributed to security research initiatives at scale. Analyzed vulnerability
+            patterns, assisted in threat modeling exercises, and worked closely with senior
+            researchers on active security challenges affecting Microsoft's product ecosystem.
+          </p>
+          <div class="exp-tags">
+            <span class="tag">Vulnerability Research</span>
+            <span class="tag">Threat Modeling</span>
+            <span class="tag">Security Analysis</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ───────────────────────────────────────────── -->
+  <section class="section" id="projects">
+    <div class="section-header">
+      <span class="section-num">03 /</span>
+      <h2 class="section-title">Projects</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Project cards — duplicate and customize as needed -->
+      <div class="project-card">
+        <div class="proj-tag">Research</div>
+        <h3 class="proj-title">Vulnerability Analysis Tool</h3>
+        <p class="proj-desc">
+          A script that automates CVE lookups and cross-references CVSS scores with affected
+          system inventories to help prioritize patching workflows.
+        </p>
+        <div class="proj-stack">
+          <span class="tag">Python</span>
+          <span class="tag">NVD API</span>
+          <span class="tag">JSON</span>
+        </div>
+        <div class="proj-links">
+          <a href="#" class="proj-link">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="proj-tag">Blue Team</div>
+        <h3 class="proj-title">SIEM Log Parser</h3>
+        <p class="proj-desc">
+          Custom log parsing utility to normalize and enrich Windows event logs for ingestion
+          into a SIEM platform, reducing analyst triage time.
+        </p>
+        <div class="proj-stack">
+          <span class="tag">Python</span>
+          <span class="tag">Splunk</span>
+          <span class="tag">Windows Events</span>
+        </div>
+        <div class="proj-links">
+          <a href="#" class="proj-link">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="proj-tag">CTF</div>
+        <h3 class="proj-title">CTF Write-ups</h3>
+        <p class="proj-desc">
+          Collection of documented solutions and methodology notes from Capture The Flag
+          challenges across web, crypto, forensics, and binary exploitation.
+        </p>
+        <div class="proj-stack">
+          <span class="tag">Web</span>
+          <span class="tag">Crypto</span>
+          <span class="tag">Forensics</span>
+          <span class="tag">Pwn</span>
+        </div>
+        <div class="proj-links">
+          <a href="#" class="proj-link">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="proj-tag">Home Lab</div>
+        <h3 class="proj-title">Threat Detection Lab</h3>
+        <p class="proj-desc">
+          Self-hosted VM lab simulating attack scenarios to practice detection engineering,
+          incident response, and blue team tooling configuration.
+        </p>
+        <div class="proj-stack">
+          <span class="tag">VirtualBox</span>
+          <span class="tag">Wazuh</span>
+          <span class="tag">Kali Linux</span>
+        </div>
+        <div class="proj-links">
+          <a href="#" class="proj-link">Write-up →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ─────────────────────────────────────────────── -->
+  <section class="section" id="skills">
+    <div class="section-header">
+      <span class="section-num">04 /</span>
+      <h2 class="section-title">Skills</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-cat">Security Operations</div>
+        <div class="skill-list">
+          <span class="tag">SIEM</span>
+          <span class="tag">Log Analysis</span>
+          <span class="tag">Threat Monitoring</span>
+          <span class="tag">Incident Response</span>
+          <span class="tag">Triage</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-cat">Research &amp; Analysis</div>
+        <div class="skill-list">
+          <span class="tag">Vulnerability Research</span>
+          <span class="tag">CVE Analysis</span>
+          <span class="tag">Threat Modeling</span>
+          <span class="tag">OSINT</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-cat">Tools &amp; Platforms</div>
+        <div class="skill-list">
+          <span class="tag">Splunk</span>
+          <span class="tag">Wireshark</span>
+          <span class="tag">Nmap</span>
+          <span class="tag">Burp Suite</span>
+          <span class="tag">Kali Linux</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-cat">Programming</div>
+        <div class="skill-list">
+          <span class="tag">Python</span>
+          <span class="tag">Bash</span>
+          <span class="tag">PowerShell</span>
+          <span class="tag">SQL</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-cat">Cloud &amp; Infrastructure</div>
+        <div class="skill-list">
+          <span class="tag">Azure</span>
+          <span class="tag">Microsoft 365</span>
+          <span class="tag">Active Directory</span>
+          <span class="tag">Networking</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-cat">Frameworks</div>
+        <div class="skill-list">
+          <span class="tag">MITRE ATT&amp;CK</span>
+          <span class="tag">NIST</span>
+          <span class="tag">OWASP Top 10</span>
+          <span class="tag">Cyber Kill Chain</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ────────────────────────────────────────────── -->
+  <section class="section" id="contact">
+    <div class="section-header">
+      <span class="section-num">05 /</span>
+      <h2 class="section-title">Contact</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="contact-block">
+      <p class="contact-intro">
+        Open to opportunities, collaborations, and conversations about cybersecurity.
+        Reach out and let's connect.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:you@email.com" class="contact-link">
+          <span class="contact-label">Email</span>
+          <span class="contact-val">you@email.com</span>
+        </a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-val">/in/yourprofile</span>
+        </a>
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-val">@yourusername</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer-copy">// yourname.sec — built with care</div>
+    <div class="footer-links">
+      <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:you@email.com">Email</a>
+    </div>
+  </footer>
+
+</body>
+</html>
